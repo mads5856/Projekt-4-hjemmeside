@@ -5,4 +5,76 @@ body {
     background-color: ##EEEEEE;
     width: 100%;
     font-size: 100%;
+    font-family: arial, sans-serif;
+}
+
+                                /* kodning for header*/
+
+header img {
+    width: 25%;
+    height: auto;
+    margin-top: -40px;
+    float: left;
+}
+
+.top {
+    background-color: #333a41;
+    height: 13vh;
+}
+
+header h1 {
+    color: #EEEEEE;
+    clear: right;
+    text-align: center;
+    height: 20vh;
+    margin-top: -1px;
+    font-size: 5em;
+    text-decoration: underline;
+    text-decoration-color: #ABCA58;
+}
+
+header h2 {
+    background-color: #333a41;
+    margin-top: -5px;
+    height: 15vh;
+    font-size: 2.1em;
+    color: #EEEEEE;
+    text-align: center;
+}
+
+.gratis {
+    font-size: 2.1em;
+    color: #ABCA58;
+}
+
+                                /* kodning for main */
+
+main {
+    margin-top: -35px;
+}
+
+.ruter-overskrift h3 {
+    margin-left: 640px;
+    font-size: 2em;
+    text-decoration: underline
+}
+
+.ruter1 h4 {
+    margin-left: 40px;
+}
+.ruter1 {
+    float: left;
+    width: 20%;
+    margin-left: 400px
+}
+.ruter2 {
+    float: left;
+    margin-left: 200px;
+}
+.ruter2 h4 {
+    margin-left: 40px;
+}
+.stoppesteder {
+    height: 65vh;
+    background-color: #949393;
 }
