@@ -17,8 +17,12 @@ header img {
     float: left;
 }
 
+header {
+    height: 35vh;
+        background-color: #333a41;
+}
+
 .top {
-    background-color: #333a41;
     height: 13vh;
 }
 
@@ -62,19 +66,129 @@ main {
 .ruter1 h4 {
     margin-left: 40px;
 }
+
 .ruter1 {
     float: left;
     width: 20%;
     margin-left: 400px
 }
+
 .ruter2 {
     float: left;
     margin-left: 200px;
 }
+
 .ruter2 h4 {
     margin-left: 40px;
 }
+
 .stoppesteder {
     height: 65vh;
     background-color: #949393;
+    border-bottom: solid;
+    border-top: solid;
+    height: 80vh;
+}
+
+.udogind {
+    height: 30vh;
+
+}
+
+.udogind h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.udogind p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.udogind ul {
+    margin-left: 420px;
+}
+
+.nem {
+    color: #ABCA58;
+}
+
+.rejseplan {
+    background-color: #333a41;
+    color: #EEEEEE;
+    height: 50vh;
+    border-top: solid;
+    border-color: #000000;
+}
+
+.rejseplan img {
+    float: left;
+    width: 170px;
+    margin-left: 150px;
+    margin-top: 105px;
+    border: solid;
+    border-color: #000000;
+    border-radius: 20px;
+}
+
+.rejseplan h3 {
+    font-size: 2em;
+}
+
+.rejseplan p {
+    font-size: 1.2em;
+    text-align: center;
+    width: 500px;
+    margin-left: 500px;
+}
+
+.app {
+    font-weight: bold;
+}
+
+                                /* Kodning for footer */
+
+footer {
+    background-color: #949493;
+    margin-top: -32px;
+    margin-bottom: -20px;
+    height: 120vh;
+    border-top: solid;
+}
+
+footer h4 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer ul {
+    margin-left: 530px;
+}
+
+footer span {
+    font-weight: bold;
+}
+
+.tlf-ikon {
+    width: 20px;
+    float: left;
+    margin-left: 700px;
+}
+
+.nummer {
+    text-align: left;
+}
+
+.rejseplan2 img {
+    width: 70px;
+    float: left;
+    margin-left: 470px;
+}
+
+.rejseplan2 p {
+    text-align: left;
 }
