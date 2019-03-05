@@ -193,6 +193,51 @@ footer span {
 .rejseplan2 p {
     text-align: left;
 }
+
 .sitemap {
     display: none;
+}
+
+                            /* Kodning for 404 page */
+
+.pnf {
+    margin: auto;
+    width: auto;
+    height: 105vh;
+    background-color: #333a41;
+}
+
+.img {
+    width: 800px;
+    margin-top: 120px;
+    text-align: center;
+    margin-left: 350px;
+}
+
+.pnf h1 {
+    font-size: 60px;
+    color: #ABCA58;
+    text-align: center;
+}
+
+.pnf button {
+    font-size: 60px;
+    background-color: #ABCA58;
+    border: solid;
+    border-radius: 10px;
+    padding: 20px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: #EEEEEE;
+    border-color: #000000;
+    margin-left: 600px;
+}
+
+.pnf button:hover {
+    opacity: 0.7;
+}
+
+ul {
+    color: #000000;
 }
